@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* first navbar items*/
+.navbar-brand{
+    font-family: tangerine;
+    font-size: 44px;
+    
+}
+
+#navbar1, #navbarDropdown{
+    font-weight: bold;
+}
+
+
+#navbar1:hover{
+    background: black !important;
+    color: white !important;
+    border-radius: 50px;
+}
+
+/* Navbar2 items*/
+#navbar2head{
+    
+    font-weight: bold;
+}
+
+#navbar2{
+    text-align: center !important;
+    font-weight: bold;
+}
+
+
+#navbar2:hover{
+    background: black ;
+    color: white;
+    border-radius: 50px;
+}
+
+/* Products Heading & Para designing */
+
+#Mobilephones, #Laptops, #About-Us, #Contact-Us{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 33px;
+    padding: 10px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+/* Cards item photos size adjustments */
+.card img{
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding: 15px;
+}
+
+i{
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+i:hover{
+    color: white !important;
+}

@@ -1,0 +1,19 @@
+/* Default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First navbar items */
+#companyname{
+    font-family: tangerine !important;
+    font-size: 44px;
+}
+
+#signup:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
